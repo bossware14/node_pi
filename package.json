@@ -1,0 +1,19 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "webserver.js",
+  "main": "webserver.js",
+  "scripts": {
+    "start" : "node webserver.js",
+    "prepare": "node webserver.js",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "*",
+    "nodemon": "^3.1.4"
+  }
+}
